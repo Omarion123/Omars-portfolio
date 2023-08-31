@@ -1,3 +1,13 @@
+const back = document.querySelector('.anime');
+const simple = document.querySelector('.simple');
+console.log(back.value);
+// back.classList.add('animate__animated', 'animate__bounceOutLeft');
+back.addEventListener('click', () => {
+    back.classList.add('animate__animated', 'animate__fadeOut');
+    // do something
+});
+simple.classList.add('animate__animated', 'animate__flipInX'/*, 'animate__delay-2s 2s'*/);
+simple.style.color='#af2676';
 const questions = [
     {
         question: "Which is the largest animal in the world?",
@@ -93,8 +103,8 @@ function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of 
     ${questions.length}!`;
-    nextButton.innerHTML="Retake Quiz";
-    nextButton.style.display="block";
+    nextButton.innerHTML = "Retake Quiz";
+    nextButton.style.display = "block";
 }
 function handleNextButton() {
     currentQuestionIndex++;

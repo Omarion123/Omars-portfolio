@@ -1,0 +1,134 @@
+<section class="section testimonials-section bg-g">
+        <section class="testimonials">
+            <div class="container testimony">
+                <div class="section-heading">
+                    <h6>Testimonial</h6>
+                    <h2>What they says</h2>
+                </div>
+                <div class="owl-carousel" data-items="2" data-nav-dots="true" data-lg-items="2" data-md-items="1"
+                    data-sm-items="1" data-xs-items="1" data-space="24" data-autoplay="false">
+                    <div class="testimonials-box mb-3">
+                        <div class="row gy-4">
+                            <div class="col-sm-7 col-lg-8">
+                                <div class="t-text">
+                                    <p>“ File storage made easy – including powerful features you won’t find anywhere
+                                        else. Whether you’re.”</p>
+                                    <div class="t-lead">
+                                        <h6>- Ema Watson</h6>
+                                        <span>Chief Executive Officer, Brazil</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-lg-4">
+                                <div class="t-avatar">
+                                    <img src="assets/img/avatar-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box mb-3">
+                        <div class="row gy-4">
+                            <div class="col-sm-7 col-lg-8">
+                                <div class="t-text">
+                                    <p>“ File storage made easy – including powerful features you won’t find anywhere
+                                        else. Whether you’re.”</p>
+                                    <div class="t-lead">
+                                        <h6>- Ema Watson</h6>
+                                        <span>Chief Executive Officer, Brazil</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-lg-4">
+                                <div class="t-avatar">
+                                    <img src="assets/img/avatar-2.jpg" title="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box mb-3">
+                        <div class="row gy-4">
+                            <div class="col-sm-7 col-lg-8">
+                                <div class="t-text">
+                                    <p>“ File storage made easy – including powerful features you won’t find anywhere
+                                        else. Whether you’re.”</p>
+                                    <div class="t-lead">
+                                        <h6>- Ema Watson</h6>
+                                        <span>Chief Executive Officer, Brazil</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-lg-4">
+                                <div class="t-avatar">
+                                    <img src="assets/img/avatar-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box mb-3">
+                        <div class="row gy-4">
+                            <div class="col-sm-7 col-lg-8">
+                                <div class="t-text">
+                                    <p>“ File storage made easy – including powerful features you won’t find anywhere
+                                        else. Whether you’re.”</p>
+                                    <div class="t-lead">
+                                        <h6>- Ema Watson</h6>
+                                        <span>Chief Executive Officer, Brazil</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-lg-4">
+                                <div class="t-avatar">
+                                    <img src="assets/img/avatar-2.jpg" title="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        Slide 1
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nulla, quam illo sit assumenda sint obcaecati fugiat quos ratione voluptas laborum qui aperiam aut minus sequi facere enim iste commodi!
+                    </div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4</div>
+                      <div class="swiper-slide">Slide 5</div>
+                      <div class="swiper-slide">Slide 6</div>
+                      <div class="swiper-slide">Slide 7</div>
+                      <div class="swiper-slide">Slide 8</div>
+                      <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                
+                  <!-- Swiper JS -->
+                  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+                
+                  <!-- Initialize Swiper -->
+                  <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      pagination: {
+                        el: ".swiper-pagination",
+                      },
+                    });
+                  </script>
+                <!-- <div class="testimonials-brand">
+                    <div class="owl-carousel" data-items="5" data-nav-dots="true" data-lg-items="4" data-md-items="3"
+                        data-sm-items="3" data-xs-items="2" data-space="24" data-autoplay="false">
+                        <div class="brand-box">
+                            <img src="assets/img/brand-1.png" title="" alt="">
+                        </div>
+                        <div class="brand-box">
+                            <img src="assets/img/brand-2.png" title="" alt="">
+                        </div>
+                        <div class="brand-box">
+                            <img src="assets/img/brand-3.png" title="" alt="">
+                        </div>
+                        <div class="brand-box">
+                            <img src="assets/img/brand-4.png" title="" alt="">
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
